@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@dasha.ai/cli": "^0.5.3"
+  }
+}

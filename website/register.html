@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="structure.css">
+        <link rel="stylesheet" href="splash.css">
+        <script src="scripts/scripts.js"></script>
+
+        <title>test</title>
+
+    </head>
+
+    <body>
+
+        <section class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    
+                    <form name="register_form" method="post">
+                        <div class="loginfield">
+                            <label class="lowertext" for="wallet-address">NEW PASS</label>
+                            <input name="new_password" class="cleaninput" type="text" id="wallet-address" placeholder="ENTER NEW PASSWORD">
+                        </div>
+                        <div class="loginfield">
+                            <div class="lowertext">ADDRESS</div>
+                            <div id="new_address"></div>
+                        </div>
+                        <button class="submit" type="button" onclick="createWallet()" class="btn btn-primary">CREATE WALLET</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="structure.css">
+        <link rel="stylesheet" href="splash.css">
+        <script src="scripts/scripts.js"></script>
+
+        <title>test</title>
+
+    </head>
+
+    <body>
+
+        <section class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    
+                    <form name="login_form" onsubmit="return validateLogin()" method="post">
+                        <div class="loginfield">
+                            <label class="lowertext" for="wallet-address">WALLET</label>
+                            <input name="address" class="cleaninput" type="text" id="wallet-address" placeholder="ENTER WALLET ADDRESS">
+                        </div>
+                        <div class="loginfield">
+                            <label class="lowertext" for="password">PASSWORD</label>
+                            <input name="password" class="cleaninput" type="password" id="password" placeholder="ENTER PASSWORD">
+                        </div>
+                        <button class="submit" type="submit" class="btn btn-primary">PROCEED</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </body>
+
+</html>

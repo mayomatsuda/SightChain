@@ -1,0 +1,42 @@
+{
+    "version": "v2",
+    "intents": {
+      "get_balance": {
+        "includes": [
+          "get balance",
+          "check balance",
+          "view balance",
+          "balance",
+          "account balance",
+          "wallet balance"
+        ],
+        "excludes": [
+          "send balance"
+        ]
+      },
+      "send_balance": {
+        "includes": [
+          "send balance",
+          "send bitcoin",
+          "transfer balance",
+          "transfer bitcoin",
+          "send",
+          "transfer"
+        ],
+        "excludes": [
+          "wallet"
+        ]
+      },
+      "quit": {
+        "includes": [
+          "quit",
+          "leave",
+          "exit",
+          "bye",
+          "hang up"
+        ],
+        "excludes": [
+        ]
+      }
+    }
+  }
